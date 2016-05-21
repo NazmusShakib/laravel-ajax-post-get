@@ -1,0 +1,97 @@
+#wrapper {
+    padding-left: 160px;
+    transition: all 0.4s ease 0s;
+}
+#sidebar-wrapper {
+    width: 163px;
+	background: #333366 none repeat scroll 0 0;
+}
+.img_logo {
+    height: 80px;
+    margin: 0 auto;
+    width: 80px;
+}
+.nav > li > a {
+    height: 90px;
+    text-align: center;
+    width: 163px;
+}
+.icon_label {
+    font-weight: 600;
+}
+.nav > li {
+    height: 90px;
+    width: 163px;
+}
+.nav {
+    width: 163px;
+}
+.logo_icon a:hover {
+    background: rgba(0, 0, 0, 0) none repeat scroll 0 0;
+    color: transparent;
+}
+.sidebar-nav li a:hover, .sidebar-nav li.active {
+    background: rgba(0, 0, 0, 0) none repeat scroll 0 0 !important;
+    text-decoration: none !important;
+}
+.sidebar-nav > .sidebar-brand {
+    font-size: 18px;
+    height: 100px;
+    line-height: 60px;
+}
+.nav > li > a:focus, .nav > li > a:hover {
+    background-color: #eee;
+    text-decoration: none;
+}
+.home_icon {
+    background-image: url("../image/home.png");
+    display: block;
+    height: 50px;
+    margin: 0 auto;
+    width: 48px;
+}
+.comments_icon {
+    background-image: url("../image/comments.png");
+    display: block;
+    height: 44px;
+    margin: 0 auto;
+    width: 48px;
+}
+.groups_icon {
+    background-image: url("../image/people.png");
+    display: block;
+    height: 48px;
+    margin: 0 auto;
+    width: 48px;
+}
+.training_icon {
+    background-image: url("../image/caap.png");
+    display: block;
+    height: 33px;
+    margin: 0 auto;
+    width: 48px;
+}
+.events_icon {
+    background-image: url("../image/calender.png");
+    display: block;
+    height: 51px;
+    margin: 0 auto;
+    width: 48px;
+}
+.doc_icon {
+    background-image: url("../image/document.png");
+    display: block;
+    height: 48px;
+    margin: 0 auto;
+    width: 40px;
+}
+.setting_icon {
+    background-image: url("../image/tool.png");
+    display: block;
+    height: 48px;
+    margin: 0 auto;
+    width: 48px;
+}
+.content-header{
+	border: 1px solid #ccc;
+}

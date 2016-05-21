@@ -1,0 +1,126 @@
+/*!
+ * Start Bootstrap - The Big Picture HTML Template (http://startbootstrap.com)
+ * Code licensed under the Apache License v2.0.
+ * For details, see http://www.apache.org/licenses/LICENSE-2.0.
+ */
+
+body {
+	background: rgba(0, 0, 0, 0.1);
+	min-height: 100%;
+	overflow-y: hidden;
+	background-size: cover;
+	font-family: 'Open Sans', sans-serif;
+}
+.full {
+  background: url(../image/abstract-wallpaper.png) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  background-color: rgba(0, 0, 0, 0.5);
+  overflow-y: hidden;
+  min-height: 100%;
+  width:100%;
+  height:100%;
+  min-height:100%;
+}
+.content_box {
+    color: #fff;
+}
+.center_tab{
+	text-align: center;
+	margin-top: 90px;
+}
+.log_logo{
+	height: 100px;
+	width: 100px;
+}
+.form-control {
+    background-color: transparent;
+    background-image: none;
+    border: 1px solid #ccc;
+    border-radius: 25px;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.2) inset;
+    color: #fff;
+    display: block;
+    font-family: roboto;
+    font-size: 15px;
+    height: 45px;
+    line-height: 1.42857;
+    padding: 6px 12px 6px 45px;
+    transition: border-color 0.15s ease-in-out 0s, box-shadow 0.15s ease-in-out 0s;
+    width: 300px;
+}
+.login_input {
+    margin: 20px auto;
+    text-align: center;
+    width: 300px;
+}
+.content_box h1 {
+    margin-bottom: 35px;
+    margin-top: 35px;
+}
+#login-submit, #registration-submit {
+    background: red none repeat scroll 0 0;
+    border: 0 none;
+    border-radius: 25px;
+    color: #fff;
+    font-size: 17px;
+    height: 45px;
+    width: 300px;
+    margin-top: 10px;	
+}
+#usr{
+	background:rgba(255,255,255,0) url("../image/user146 (1).png") no-repeat scroll 12px 6px;
+}
+#pwd{
+	background: rgba(255,255,255,0) url("../image/padlock50.png") no-repeat scroll 12px 6px;
+}
+
+*::after, *::before {
+    box-sizing: border-box;
+}
+*::after, *::before {
+    box-sizing: border-box;
+}
+.login_reg_link {
+    margin-top: 20px;
+}
+.login_reg_link a {
+    border-bottom: 1px solid #fff;
+    color: #fff;
+    font-size: 14px;
+    font-weight: 500;
+    margin: 15px 34px 15px 25px;
+    padding-bottom: 10px;
+}
+.login_reg_link a:hover{
+	text-decoration: none;
+}
+.registration_form .content_box {
+    margin-top: -32px;
+}
+.registration_form .login_input {
+    margin: 16px auto;
+    text-align: center;
+    width: 300px;
+}
+#register_form {
+    margin-top: 45px;
+}
+#usr::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+  color: #fff;
+  font-family: Roboto, sans-serif;
+}
+#usr::-moz-placeholder, #pwd::-moz-placeholder, #email::-moz-placeholder, #phone::-moz-placeholder { /* Firefox 19+ */
+  color: #fff;
+  font-family: Roboto, sans-serif;
+}
+#usr:-ms-input-placeholder { /* IE 10+ */
+  color: #fff;
+  font-family: Roboto, sans-serif;
+}
+#usr:-moz-placeholder { /* Firefox 18- */
+  color: #fff;
+  font-family: Roboto, sans-serif;
+}
