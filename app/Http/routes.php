@@ -27,7 +27,7 @@ Route::get('/getRequest',function(){
 
 Route::post('/register', function(){
     if(Request::ajax()){
-        return var_dump(Response::json(Request::all()));
+        return Response::json(Request::all());
     }
 });
 
